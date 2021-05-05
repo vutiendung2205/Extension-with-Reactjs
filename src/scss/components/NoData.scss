@@ -1,0 +1,27 @@
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  background: #fff;
+  height: 100%;
+
+  .noData-image {
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+  }
+  .noData-title.referrals {
+    color: #71ca2f;
+    margin-bottom: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  img{
+    width: 100%
+  }
+}

@@ -1,0 +1,142 @@
+.websitePage-list{
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px;
+    .not-enougt-data{
+      opacity: 1;
+      height: 30px;
+      margin-top: 10px;
+      font-size: 14px;
+      border-bottom: none !important;
+    }
+    .last-item {
+        border-bottom: none !important;
+      }
+    .websitePage-listItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40px;
+        align-items: center;
+        padding: 5px 0px;
+        border-bottom: 1px solid #c1c0c0;
+        .websitePage-listItemTitlePage  {
+          position: relative;
+          float: left;
+          box-sizing: border-box;
+          width: 100%;
+          text-align: left;
+          .pg-16{
+            width: 16px;
+          }
+          .websitePage-listPageImage {
+            border-radius: 50%;
+            margin-right: 5px;
+            background-color: transparent;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: relative;
+            top: 4px;
+            height: 24px;
+            width: 24px;
+            overflow: hidden;
+          }
+          .websitePage-listItemPage {
+            position: absolute;
+            top: 0px;
+            display: inline-block;
+            box-sizing: border-box;
+            color: gray;
+            width: 85px;
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-weight: bold;
+            color: #2a3e52;
+            text-decoration: none;
+            outline: 0 solid;
+            font-size: 14px;
+          }
+          .websitePage-slug {
+            position: absolute;
+            color: #a1aab2;
+            top: 50%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 100%;
+            width: 85px;
+            font-size: 14px;
+          }
+          .is-followed {
+            color: rgb(46, 136, 203) !important;
+          }
+          .not-followed {
+            color: rgb(101, 103, 105) !important;
+          }
+        }
+         
+      }
+      .websitePage-listItem :last-child {
+        border-bottom: none;
+      }
+}
+#btnShowMoreFb {
+  width: 135px;
+  transition: opacity 500ms 1000ms ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #ffffff;
+  border: solid 1px #096898;
+  color: #096898;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  vertical-align: middle;
+  line-height: 40px;
+  margin: auto;
+  line-height: 20px;
+  border-radius: 3px;
+  color: #096898;
+  text-align: center;
+}
+#view-all-facebook-page{
+
+  background: white;
+  .traffic-header {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px 15px 10px;
+}
+  .websitePage-listItem{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    padding: 5px 9px;
+    border-bottom: 1px solid #c1c0c0;
+    margin-left: 10px;
+  }
+.view-all-facebook-body{
+  height:435px; overflow-y: auto; overflow-x: hidden; background: #fff;
+  .trafic-box {
+    display: flex;
+    justify-content: space-between;
+     ul{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+     }
+    }
+}
+.text-danger {
+  color: #dc3545 !important;
+}
+}
+
+  
+  

@@ -1,0 +1,175 @@
+.overviewContainer {
+  background-color: white;
+  height: 500px;
+  #pgNodataDiv {
+    font-size: 16px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+    color: #90949c;
+    padding:10px;
+  }
+
+  .pgNodataDiv{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #pgBtnFollowing span {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+  .pg-overview-header {
+    background-color: #373f4c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px;
+    position: relative;
+    .is-followed{
+      color: rgb(46, 136, 203) !important;
+    }
+    .not-followed{
+        color: rgb(101, 103, 105) !important;
+    }
+    #pgBtnFollowing {
+      width: 71px;
+      font-size: 10px;
+      color: #373f4c;
+      background-color: white;
+      height: 25px;
+      border-radius: 2px;
+      line-height: 25px;
+      vertical-align: middle;
+      text-align: center;
+      position: absolute;
+      right: 10px;
+      cursor: pointer;
+    }
+    #pgBtnFollowing:hover {
+      box-shadow: 2px 2px 11px #737070;
+    }
+    #domainNameHeader {
+      font-size: 16px;
+        padding: 0px 10px 0px 10px;
+        color: white;
+        width: 180px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    #domainDateHeader {
+      color: white;
+      font-size: 12px;
+      margin-top: 0px;
+      margin-left: 10px;
+    }
+    .header-icon {
+      display: flex;
+      padding: 7px;
+      line-height: 0;
+      border-radius: 6px;
+      background: #f4f4f4;
+      border: solid 1px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px 0 rgba(199, 199, 199, 0.2);
+      border-radius: 6px;
+      background: #f4f4f4;
+      padding: 4px;
+      line-height: 0;
+      height: 16px;
+      width: 16px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
+
+  
+  .desktop-traffic,.mobile-traffic {
+    width: 85px;
+    color: #15719a;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  #totalVist {
+    color: #096898;
+    font-size: 34px;
+  }
+  .web-traffic {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 15px 0px 2px 0px;
+    .total-traffic {
+      text-align: center;
+      min-width: 115px;
+    }
+    .desktop-traffic{
+      text-align: left;
+    }
+    .mobile-traffic{
+      text-align: right;
+    }
+  }
+  .web-traffic-bottom {
+    display: flex;
+    margin: 0px 10px;
+    justify-content: center;
+    #pg-line-left {
+      width: 60px;
+      height: 35px;
+      border-left: 3px dashed rgb(123, 202, 25);
+      border-top: 3px dashed rgb(123, 202, 25);
+    }
+    #pg-line-right {
+      width: 60px;
+      height: 35px;
+      border-right: 3px dashed rgb(46, 136, 203);
+      border-top: 3px dashed rgb(46, 136, 203);
+    }
+    #totalVisitChange {
+      width: 180px;
+      margin-top: -6px;
+      text-align: center;
+      font-size: 12px;
+      padding: 0px 0px;
+    }
+  }
+
+
+  .websitePage-relativeChange--up {
+    color: #4c9b00;
+  }
+  .websitePage-relativeChange--down {
+    color: #ed5757;
+  }
+  .trafic-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .traffic-country {
+    width: 150px;
+    padding: 5px 10px;
+  }
+  .traffic-header {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .traffic-header-left {
+    color: #373e4c;
+  }
+  .traffic-header-right {
+    color: #fa6742;
+  }
+  .traffic-fb {
+    width: 150px;
+    padding: 5px 10px;
+    text-align: right;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+}
+

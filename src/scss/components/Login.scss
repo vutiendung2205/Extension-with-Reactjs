@@ -1,0 +1,44 @@
+.pg-login {
+  z-index: 999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, .9);
+  font-family: Nunito;
+  // font-family: Roboto,"Helvetica",Arial,sans-serif;
+  // font-family: "Open Sans", Arial, Helvetica, sans-senif !important;
+  width: 100%;
+  height: 100%;
+
+  .pg-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    margin: auto;
+  }
+
+  .pg-login-image {
+    width: 90px;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 27px;
+    box-shadow: 1px 1px 15px #c4c0c0;
+    text-align: center;
+    margin: 60px 0px 20px 0px;
+  }
+
+  .pg-login-button {
+    width: 100%;
+    height: 40px;
+    display: block;
+    color: white;
+    background-color: rgb(255, 113, 40);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+}

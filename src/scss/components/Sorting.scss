@@ -1,0 +1,84 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  .dropbtn {
+    // background-color: #fff;
+    color: #758796;
+    padding: 1px 5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 60px;
+    line-height: 20px;
+    display: flex;
+    span{
+      display: flex;
+      place-items: center;
+      b{
+        display: inline-block;
+        max-width: 95px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .dropdown-content {
+    border: 0;
+    top: calc(100% + 4px) !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    transform: unset !important;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    min-width: 145px;
+    font-size: 12px;
+    left: 3px;
+    z-index: 5;
+    max-height: 330px;
+    overflow-y: auto;
+
+    a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-menu a,
+    div {
+      color: #758796;
+    }
+
+    a:hover {
+      background-color: #6659f7;
+      color: #fff !important;
+    }
+
+    .input-collection:hover,
+    .div-create-collection:hover {
+      background-color: #f1f1f1;
+    }
+  }
+  .dropdown-content::-webkit-scrollbar {
+    width: 5px;
+    height: 217px;
+  }
+
+  .dropdown-content::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 2px;
+  }
+
+  .dropdown-content::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+  }
+}
+
+.toggled {
+  box-shadow: 0 0 0 0.1rem rgba(134, 142, 150, 0.5);
+}

@@ -1,0 +1,65 @@
+.pg-header-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 8px;
+  white-space: nowrap;
+
+  .pg-header {
+    font-weight: 500;
+    font-size: 19px;
+  }
+
+  .pg-header::after {
+    content: "";
+    display: block;
+    margin-top: 8px;
+    max-width: 124px;
+    height: 2px;
+    background-color: #fa6742;
+  }
+
+  .pg-date-select {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 30px;
+    margin: auto 0px auto auto;
+    position: relative;
+
+    .pg-date-item {
+      display: inline-block;
+      vertical-align: middle;
+      width: 50%;
+      text-align: center;
+      text-transform: capitalize;
+      line-height: 28px;
+      color: gray;
+      background: #fff;
+      box-shadow: none;
+      border: solid 1px #d8d8d8;
+      box-sizing: border-box;
+      font-weight: 300;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .pg-date-selected {
+      background: #373e4c;
+      box-shadow: inset 1px 0 1px 1px #373e4c;
+      color: #fafafa;
+    }
+
+    .pg-date-left {
+      border-top-left-radius: 17.5px;
+      border-bottom-left-radius: 17.5px;
+      border-right: none;
+    }
+
+    .pg-date-right {
+      border-bottom-right-radius: 17.5px;
+      border-top-right-radius: 17.5px;
+      border-left: none;
+    }
+  }
+}

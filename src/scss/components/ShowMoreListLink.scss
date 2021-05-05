@@ -1,0 +1,29 @@
+.show-more-supplier-and-store-container {
+  background: #fff;
+  padding: 0 12px;
+  margin: 5px 0;
+  min-height: 490px;
+
+  .link-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    border-bottom: 1px solid #c1c0c0;
+    height: 40px;
+    text-align: start;
+    line-height: 40px;
+
+    a {
+      text-decoration: none;
+      color: #4886c4;
+      font-size: 14px;
+    }
+  }
+  li {
+    list-style: none;
+  }
+  .link-item:last-child {
+    border-bottom: none;
+  }
+}

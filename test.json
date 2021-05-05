@@ -1,0 +1,124 @@
+{
+    "type": "video_website",
+    "component_objects": {
+        "details_1": {
+            "type": "details",
+            "data": {
+                "title": {
+                    "content": "Kohl’s | Shop Cyber Deal Days",
+                    "is_rtl": false
+                },
+                "subtitle": {
+                    "content": "kohls.com",
+                    "is_rtl": false
+                },
+                "destination": "override_browser_with_docked_media_1"
+            }
+        },
+        "media_1": {
+            "type": "media",
+            "data": {
+                "id": "13_1329946010710396933",
+                "destination": "browser_with_docked_media_1"
+            }
+        }
+    },
+    "destination_objects": {
+        "override_browser_with_docked_media_1": {
+            "type": "browser",
+            "data": {
+                "url_data": {
+                    "url": "https://www.kohls.com/?utm_campaign=direct_response&utm_medium=paid_social&utm_source=twitter&utm_content=202010_post790&cid=SO20FALLTWD454&campaignengineid={{campaign.id}}&adsetengineid={{adset.id}}&adengineid={{ad.id}}",
+                    "vanity": "kohls.com"
+                }
+            }
+        },
+        "browser_with_docked_media_1": {
+            "type": "browser_with_docked_media",
+            "data": {
+                "url_data": {
+                    "url": "https://www.kohls.com/?utm_campaign=direct_response&utm_medium=paid_social&utm_source=twitter&utm_content=202010_post790&cid=SO20FALLTWD454&campaignengineid={{campaign.id}}&adsetengineid={{adset.id}}&adengineid={{ad.id}}",
+                    "vanity": "kohls.com"
+                },
+                "media_id": "13_1329946010710396933"
+            }
+        }
+    },
+    "components": [
+        "media_1",
+        "details_1"
+    ],
+    "media_entities": {
+        "13_1329946010710396933": {
+            "id": 1329946010710396933,
+            "id_str": "1329946010710396933",
+            "indices": [
+                0,
+                0
+            ],
+            "media_url": "",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1329946010710396933/img/jOoy4Jz5EIrq1TFR.jpg",
+            "url": "",
+            "display_url": "",
+            "expanded_url": "",
+            "type": "video",
+            "original_info": {
+                "width": 720,
+                "height": 720
+            },
+            "sizes": {
+                "large": {
+                    "w": 720,
+                    "h": 720,
+                    "resize": "fit"
+                },
+                "medium": {
+                    "w": 720,
+                    "h": 720,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                },
+                "small": {
+                    "w": 680,
+                    "h": 680,
+                    "resize": "fit"
+                }
+            },
+            "source_user_id": 35880417,
+            "source_user_id_str": "35880417",
+            "video_info": {
+                "aspect_ratio": [
+                    1,
+                    1
+                ],
+                "duration_millis": 5539,
+                "variants": [
+                    {
+                        "bitrate": 832000,
+                        "content_type": "video/mp4",
+                        "url": "https://video.twimg.com/amplify_video/1329946010710396933/vid/480x480/frTKrd0e1t8q8JPZ.mp4?tag=13"
+                    },
+                    {
+                        "content_type": "application/x-mpegURL",
+                        "url": "https://video.twimg.com/amplify_video/1329946010710396933/pl/x6nHFug35mL_3hUW.m3u8?tag=13"
+                    },
+                    {
+                        "bitrate": 432000,
+                        "content_type": "video/mp4",
+                        "url": "https://video.twimg.com/amplify_video/1329946010710396933/vid/320x320/4-alzUsrzuf4WoCP.mp4?tag=13"
+                    },
+                    {
+                        "bitrate": 1280000,
+                        "content_type": "video/mp4",
+                        "url": "https://video.twimg.com/amplify_video/1329946010710396933/vid/720x720/LXfnpxps25oO8c5c.mp4?tag=13"
+                    }
+                ]
+            },
+            "media_key": "13_1329946010710396933"
+        }
+    }
+}

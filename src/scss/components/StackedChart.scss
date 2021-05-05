@@ -1,0 +1,13 @@
+.stacked-chart{
+    margin-top: 5px;
+    .highcharts-container {
+        svg{
+            text{
+                font-size: 10px !important;
+                tspan{
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+}
